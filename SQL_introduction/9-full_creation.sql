@@ -1,5 +1,5 @@
 -- CREATING TABLE
-CREATE TABLE `second_table` IF NOT EXISTS(
+CREATE TABLE  IF NOT EXISTS `second_table`(
     `id` INT  DEFAULT NULL,
     `name` VARCHAR(256)  DEFAULT NULL,
     `score` INT  DEFAULT NULL,
