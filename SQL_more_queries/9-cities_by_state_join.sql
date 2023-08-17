@@ -1,4 +1,4 @@
 --  test
-SELECT cities.id, cities.name, states.name
+SELECT dISTINCT cities.id, cities.name, states.name
 FROM cities, states
 ORDER BY cities.id ASC;
